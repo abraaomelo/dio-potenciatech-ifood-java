@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        int a,b,c;
+        a = 5;
+        b = 5;
+        c = 100;
+
+        String resultado = a==b ? "Verdadeiro" : "Falso";
+        System.out.println(resultado);
+
     }
 }
